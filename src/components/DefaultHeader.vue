@@ -37,8 +37,8 @@ export default defineComponent({
 
 <style scoped>
   .highlighted {
-    background-color: green;
-    opacity: 0.20;
+    background-color: navy;
+    opacity: 0.5;
     color: white !important;
   }
 </style>
