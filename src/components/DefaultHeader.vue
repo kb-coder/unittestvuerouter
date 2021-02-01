@@ -5,7 +5,7 @@
     >
     <router-link
       :to="nav.path"
-      :class="isCurrentRoute ? 'highlighted' : ''"
+      :class="isCurrentRoute(nav) ? 'highlighted' : ''"
     >
       <span>{{nav.name}}</span>
     </router-link>
@@ -39,6 +39,6 @@ export default defineComponent({
   .highlighted {
     background-color: green;
     opacity: 0.20;
-    color: white;
+    color: white !important;
   }
 </style>
