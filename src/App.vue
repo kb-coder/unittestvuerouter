@@ -1,11 +1,16 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-view name="header" />
   </div>
-  <router-view/>
+  <router-view />
 </template>
+<script>
+import { defineComponent } from 'vue'
 
+export default defineComponent({
+
+})
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
