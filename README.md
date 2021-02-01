@@ -1,4 +1,5 @@
 # unittestvuerouter
+This project demonstrates a dynamic DefaultHeader component that reads routes from the router using composition api.
 
 ## Project setup
 ```
